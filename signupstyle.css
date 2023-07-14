@@ -1,0 +1,154 @@
+.form{
+    width:500px;
+    background-color: #000;
+margin-left: 30%;
+margin-top: 5%;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #fcf9f9;
+    outline: none;
+    background: #f9f4f4;
+    transition: background 0.2s, border-color 0.2s;
+}
+.gender-label{
+    color: #fff;
+}
+::placeholder{
+    color: rgb(186, 181, 181);
+    font-family: Arial;
+}
+
+.form__input:focus {
+    border-color: var(--color-primary);
+    background: #141414;
+}
+
+.form__input--error {
+    color: var(--color-error);
+    border-color: var(--color-error);
+}
+
+.form__input-error-message {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--color-error);
+}
+button.btnn{
+    width: 200px;
+    height: 30px;
+    margin-bottom:15px;
+    margin-left:150px;
+    background: #00aeff;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+input.pr-password.form-control{
+    margin-left:120px;
+    margin-top:100px;
+}
+input.pr-password.form-control-placeholder{
+	margin-left:100px;
+ }
+.btnn:active {
+    transform: scale(0.98);
+}
+.btnn:hover{
+    background: rgb(72, 187, 236);
+    color: #f1f0f5;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form__text {
+    text-align: center;
+}
+
+.form__link {
+    color: var(--color-secondary);
+    text-decoration: none;
+    cursor: pointer;
+    color:#f3efef;
+    margin-top:2px;
+}
+
+.form__link:hover {
+    text-decoration: underline;
+}
+
+.btnn{
+    width: 200px;
+    height: 30px;
+    margin-bottom:2px;
+    margin-top:5px;
+    margin-left:-10px;
+    background: #00aeff;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+    color: #0e0e0e;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #00c3ff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(245, 241, 241);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+.form__title {
+    margin-bottom:15px;
+    margin-top:5px;
+    text-align: center;
+    color:rgb(245, 242, 242);
+}
+
+.form__input-group{
+ margin-left:120px;
+text-align: center;
+}
+
+.icon{
+    width: 100px;
+    float: left;
+    height: 70px;
+}
